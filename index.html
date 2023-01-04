@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./js-file.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1 class="banner">Tic-Tac-Toe</h1>
+            <span><p id="x-player">-----</p><p>Vs</p><p id="o-player">-----</p></span>
+        </div>
+        <div class="middle">
+            <button class="grid" value="0 0"></button>
+            <button class="grid" value="0 1"></button>
+            <button class="grid" value="0 2"></button>
+            <button class="grid" value="1 0"></button>
+            <button class="grid" value="1 1"></button>
+            <button class="grid" value="1 2"></button>
+            <button class="grid" value="2 0"></button>
+            <button class="grid" value="2 1"></button>
+            <button class="grid" value="2 2"></button>
+        </div>
+        <div class="bottom">
+            <div class="player-X">
+               <p>Prayer X</p>
+               <label for="x-name">Enter Name: </label>
+               <input type="text" name="xo" id="x-name">
+            </div>
+            <div class="player-O">
+                <p>Player O</p>
+                <label for="o-name">Enter Name: </label>
+                <input type="text" name="xo" id="o-name">
+            </div>
+        </div>
+        <div class="play">
+            <button id="play-button">PLAY</button>
+        </div>
+    </div>
+</body>
+</html>
